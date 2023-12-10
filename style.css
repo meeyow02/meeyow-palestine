@@ -1,0 +1,55 @@
+.bg-black{
+  background-color: #000;
+}
+.bg-white{
+  background-color: #fff;
+}
+.bg-green{
+  background-color: #008000;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  flex-direction: column;
+}
+.inline-block{
+  display: inline-block;
+}
+.rectangle {
+  width: 35rem;
+  height: 6rem;
+  
+}
+.triangle-red{
+  position: absolute;
+  top: .5rem;
+  border-top: 9rem solid transparent;
+	border-left: 15rem solid #ff0000;
+	border-bottom: 9rem solid transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .rectangle{
+    width: 28rem;
+    height: 5rem;
+  }
+  .triangle-red{
+	  border-top: 7.5rem solid transparent;
+	  border-left: 10rem solid #ff0000;
+	  border-bottom: 7.5rem solid transparent;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .rectangle{
+    width: 20rem;
+    height: 3.5rem;
+  }
+  .triangle-red{
+	  border-top: 5.3rem solid transparent;
+	  border-left: 7rem solid #ff0000;
+	  border-bottom: 5.3rem solid transparent;
+  }
+}
